@@ -1,0 +1,46 @@
+[
+  {
+    "id": "name",
+    "title": "姓名",
+    "required": true,
+    "type": "Paragraph",
+    "placeholder": "請輸入您的姓名"
+  },
+  {
+    "id": "line id",
+    "title": "LINE ID",
+    "required": true,
+    "type": "Paragraph",
+    "placeholder": "請輸入您的 LINE ID"
+  },
+  {
+    "id": "marital_status",
+    "title": "婚姻狀況",
+    "required": true,
+    "type": "SingleChoice",
+    "options": [
+      { "value": "single", "label": "未婚" },
+      { "value": "married", "label": "已婚" },
+      { "value": "prefer_not_to_say", "label": "不願透露" }
+    ]
+  },
+  {
+    "id": "hobbies",
+    "title": "興趣愛好 (可複選)",
+    "required": false,
+    "type": "MultipleChoice",
+    "options": [
+      { "value": "reading", "label": "閱讀" },
+      { "value": "sports", "label": "運動" },
+      { "value": "music", "label": "音樂" },
+      { "value": "travel", "label": "旅遊" }
+    ]
+  },
+  {
+    "id": "feedback",
+    "title": "您的建議",
+    "required": false,
+    "type": "Paragraph",
+    "placeholder": "請留下您的寶貴意見..."
+  }
+]
